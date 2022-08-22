@@ -1,12 +1,14 @@
+
 .heder_part{
     background-color: black;
     display: flex;
-    min-height: 500px;
+    min-height: 700px;
 }
 
 .text_color{
     margin-top: 150px;
     color: white;
+    font-style: italic;
 }
 .text_color h1{
   font-size: 70px;
@@ -18,3 +20,67 @@
 .img_right{
     margin-left: 650px;
 }
+
+.card_section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.card {
+  border: 1px solid grey;
+  margin-right: 20px;
+  background-color: black;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  max-height: 341px;
+}
+
+.card_description {
+  color:black;
+  text-align: center;
+}
+
+.card_description_title {
+  font-style: italic;
+}
+
+.goals_details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  color: grey;
+  font-style: italic;
+}
+
+.goals_details_span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.select_btn {
+  width: 150px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.select_btn:hover {
+ background-color: lawngreen;
+  color:black ;
+  width: 80%;
+}
+
+  
