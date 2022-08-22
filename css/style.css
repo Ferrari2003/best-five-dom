@@ -1,0 +1,20 @@
+.heder_part{
+    background-color: black;
+    display: flex;
+    min-height: 500px;
+}
+
+.text_color{
+    margin-top: 150px;
+    color: white;
+}
+.text_color h1{
+  font-size: 70px;
+  color: tomato;
+}
+.text_color p{
+    font-size: 20px;
+}
+.img_right{
+    margin-left: 650px;
+}
