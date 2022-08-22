@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best Five</title>
+    <title>Assignment_Five</title>
     <!-- Css link -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -50,7 +50,7 @@
                 <span class="goals_details_span">.</span>
                 <h4>120 Assist</h4>
               </article>
-              <button class="select_btn">Select</button>
+              <button id="playerBtn1" class="select_btn">Select</button>
             </div>
           </div>
           <!-- card 2 -->
@@ -65,7 +65,7 @@
                 <span class="goals_details_span">.</span>
                 <h4>120 Assist</h4>
               </article>
-              <button class="select_btn">Select</button>
+              <button id="playerBtn2" class="select_btn">Select</button>
             </div>
           </div>
           <!-- card 3 -->
@@ -80,16 +80,19 @@
                 <span class="goals_details_span">.</span>
                 <h4>120 Assist</h4>
               </article>
-              <button class="select_btn">Select</button>
+              <button id="playerBtn3" class="select_btn">Select</button>
             </div>
           </div>
         </div>
         <div>
-          <div class="player_select_blog">
+
+          <div id="player_container" class="player_select_blog ">
             <h1>Selected-V</h1>
             <hr />
-            <ul></ul>
-          </div>
+            <ul id ="best_player">
+              
+            </ul>
+          </div>                 
         </div>
       </section>
       <!-- end: card section -->
@@ -109,7 +112,7 @@
                 <span class="goals_details_span">.</span>
                 <h4>120 Assist</h4>
               </article>
-              <button class="select_btn">Select</button>
+              <button id="playerBtn4" class="select_btn">Select</button>
             </div>
           </div>
           <!-- card 5 -->
@@ -124,7 +127,7 @@
                 <span class="goals_details_span">.</span>
                 <h4>120 Assist</h4>
               </article>
-              <button class="select_btn">Select</button>
+              <button id="playerBtn5" class="select_btn">Select</button>
             </div>
           </div>
           <!-- card 6 -->
@@ -139,10 +142,11 @@
                 <span class="goals_details_span">.</span>
                 <h4>120 Assist</h4>
               </article>
-              <button class="select_btn">Select</button>
+              <button id="playerBtn6" class="select_btn">Select</button>
             </div>
           </div>
         </div>
+
         <div>
           <div class="calculation_blog">
             <h1 class="calculation_blog_title">Budget</h1>
@@ -167,6 +171,11 @@
             <h3 class="total">Total $<span>00</span></h3>
           </div>
         </div>
+
+
+        
+
+
       </section>
       <!-- Another Card section -->
     </main>
@@ -207,6 +216,7 @@
       </div>
     </footer>
     <!-- end : footer -->
+
     <script src="javascript/script.js"></script>
   </body>
 </html>
