@@ -17,7 +17,7 @@ body {
 }
 
 .banner_description_title {
-  font-size: 50px;
+  font-size: 60px;
   font-style: italic;
 }
 
@@ -62,22 +62,21 @@ body {
 }
 
 .card_description {
+  font-size: 30px;
   color: #fff;
   text-align: center;
 }
 
 .card_description_title {
-  font-size: 40px;
   font-style: italic;
 }
 
 .goals_details {
-  font-size: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
-  color: white;
+  color: grey;
   font-style: italic;
 }
 
@@ -101,23 +100,27 @@ body {
 }
 
 .select_btn:hover {
-  color: white;
-  background-color: deeppink;
-  width: 80%;
+  color: #fff;
+  background-color:orangered;
+  width:80%;
+}
+
+.select_btn:disabled {
+  color: gray;
+  width: 150px;
 }
 
 .player_select_blog {
-  font-weight: bold;
   font-size: 30px;
   text-align: center;
   line-height: 46px;
-  color: lightgray;
+  color: lightpink;
   font-style: italic;
 }
 
 ol {
-  color: white;
   font-size: 40px;
+  color: white;
   list-style-type: decimal;
 }
 
@@ -130,12 +133,13 @@ ol {
 }
 
 .calculation_blog_title {
+font-weight: bold;
   font-size: 50px;
   font-style: italic;
 }
 
 .per_player_cost {
-  font-size: 25px;
+  font-size: 27px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -144,8 +148,7 @@ ol {
 .per_player_cost_input {
   color: white;
   font-size: 15px;
-  background-color:white;
-  color: black;
+  background-color: black;
   border: 3px solid white;
   padding: 5px 10px;
   height: 30px;
@@ -157,18 +160,18 @@ ol {
   padding: 15px;
   border: none;
   border-radius: 10px;
-  color: white;
+  color: black;
   font-size: 18px;
   font-weight: bold;
-  background-color: orangered;
+  background-color: tomato;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
 .calculate_btn:hover {
-  color: black;
-  background-color: aqua;
-  width: 100%;
+background-color: crimson;
+color: white;
+  width: 80%;
 }
 
 .player_expenses {
@@ -227,8 +230,8 @@ ol {
 
 .calculate_total_btn:hover {
   color: black;
-  background-color: darkorange;
-  width: 100%;
+  background-color: aqua;
+  width: 80%;
 }
 
 .total{
@@ -258,10 +261,10 @@ ol {
   text-align: center;
   color: #ffffff;
 }
- .footer_title:hover{
-  color: tomato;
+.footer_title:hover{
   transition: ease-in-out 1s;
- }
+  color: tomato;
+}
 hr {
   max-width: 1341px;
   width: 100%;
@@ -297,6 +300,7 @@ hr {
   color: #b9b9b9;
 }
 .footer_list_items li:hover {
+  
   color: #fff;
 }
 
