@@ -17,20 +17,19 @@ body {
 }
 
 .banner_description_title {
-    color: tomato;
-  font-size: 60px;
+  font-size: 50px;
   font-style: italic;
 }
 
 .banner_about {
-  color: white;
+  color: tomato;
   margin-top: 150px;
   text-align: center;
 }
 
 .banner_description {
   color: white;
-  font-size: 25px;
+  font-size: 18px;
   font-style: italic;
   line-height: 30px;
 }
@@ -53,7 +52,7 @@ body {
 .card {
   border: 1px solid grey;
   margin-right: 20px;
-  background-color: white;
+  background-color: black;
   width: 100%;
 }
 
@@ -63,22 +62,22 @@ body {
 }
 
 .card_description {
-  color: black;
+  color: #fff;
   text-align: center;
 }
 
 .card_description_title {
-  font-size: 50px;
+  font-size: 40px;
   font-style: italic;
 }
 
 .goals_details {
-    font-size: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
-  color: black;
+  color: white;
   font-style: italic;
 }
 
@@ -102,21 +101,26 @@ body {
 }
 
 .select_btn:hover {
-    color: white;
-    background-color: magenta;
-  width:80%;
+  color: white;
+  background-color: deeppink;
+  width: 80%;
 }
 
 .player_select_blog {
-    font-size: 40px;
+  font-size: 30px;
   text-align: center;
+  line-height: 46px;
   color: grey;
   font-style: italic;
 }
 
+ol {
+  font-size: 40px;
+  list-style-type: decimal;
+}
+
 /* start : calculation blog */
 .calculation_blog {
-    
   text-align: center;
   background-color: black;
   color: lightgray;
@@ -124,24 +128,24 @@ body {
 }
 
 .calculation_blog_title {
-    font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
   font-style: italic;
 }
 
 .per_player_cost {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .per_player_cost_input {
-  color: black;
+  color: white;
   font-size: 15px;
-  background-color: gainsboro;
+  background-color:white;
+  color: black;
   border: 3px solid white;
+  padding: 5px 10px;
   height: 30px;
 }
 
@@ -151,28 +155,27 @@ body {
   padding: 15px;
   border: none;
   border-radius: 10px;
-  color: #fff;
+  color: white;
   font-size: 18px;
   font-weight: bold;
-  background-color: fuchsia;
+  background-color: orangered;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
 .calculate_btn:hover {
-    background-color:turquoise;
-    color: black;
+  color: black;
+  background-color: aqua;
   width: 100%;
 }
 
 .player_expenses {
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
   margin-top: 20px;
 }
 
 .manager_article {
-    font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
@@ -180,6 +183,9 @@ body {
 }
 
 .manager_input {
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 18px;
   margin-left: 10px;
   border: 3px solid white;
   border-radius: 3px;
@@ -187,7 +193,7 @@ body {
 }
 
 .coach_article {
-    font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
   margin-bottom: 12px;
@@ -195,8 +201,9 @@ body {
 
 .coach_input {
   color: #fff;
-  width: 170px;
-  margin-left: 28px;
+  padding: 5px 10px;
+  font-size: 18px;
+  margin-left: 15px;
   border: 3px solid white;
   border-radius: 3px;
   background-color: black;
@@ -208,22 +215,22 @@ body {
   padding: 15px;
   border: none;
   border-radius: 10px;
-  color:black;
+  color: #fff;
   font-size: 18px;
   font-weight: bold;
-  background-color: lawngreen;
+  background-color: rgba(0, 0, 255, 0.562);
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
 .calculate_total_btn:hover {
-    background-color: red;
-    color: aliceblue;
+  color: black;
+  background-color: darkorange;
   width: 100%;
 }
 
 .total{
-    font-size: 30px;
+  font-size: 30px;
 }
 /* end : calculation blog */
 
@@ -249,11 +256,10 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.footer_title:hover{
-   color: tomato;
-background-color: #fff;
-transition: ease-in-out 1s;
-}
+ .footer_title:hover{
+  color: tomato;
+  transition: ease-in-out 1s;
+ }
 hr {
   max-width: 1341px;
   width: 100%;
@@ -289,9 +295,7 @@ hr {
   color: #b9b9b9;
 }
 .footer_list_items li:hover {
-    font-size: 40px;
   color: #fff;
-  transition: ease-in-out 1s;
 }
 
 .social_icon {
@@ -309,7 +313,7 @@ hr {
 }
 
 .social_icon a:hover {
-    font-size: 70px;
+  font-size: 60px;
   color: #fff;
   transform: rotate(360deg);
 }
