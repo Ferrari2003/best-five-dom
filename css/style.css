@@ -107,14 +107,16 @@ body {
 }
 
 .player_select_blog {
+  font-weight: bold;
   font-size: 30px;
   text-align: center;
   line-height: 46px;
-  color: grey;
+  color: lightgray;
   font-style: italic;
 }
 
 ol {
+  color: white;
   font-size: 40px;
   list-style-type: decimal;
 }
@@ -289,7 +291,7 @@ hr {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-feature-settings: 'liga' off;
   color: #b9b9b9;
