@@ -1,37 +1,59 @@
-
-.heder_part{
-    background-color: black;
-    display: flex;
-    min-height: 700px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #454545;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.text_color{
-    margin-top: 150px;
-    color: white;
-    font-style: italic;
+/* start: header  */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  min-height: 500px;
+  padding: 15px;
 }
-.text_color h1{
-  font-size: 70px;
-  color: tomato;
+
+.banner_description_title {
+    color: tomato;
+  font-size: 60px;
+  font-style: italic;
 }
-.text_color p{
-    font-size: 20px;
+
+.banner_about {
+  color: white;
+  margin-top: 150px;
+  text-align: center;
 }
-.img_right{
-    margin-left: 650px;
+
+.banner_description {
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+/* end : header */
+.main_section {
+  margin-top: 20px;
 }
 
 .card_section {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  padding: 20px;
+}
+
+.card_blog {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  margin-top: 100px;
 }
 
 .card {
   border: 1px solid grey;
   margin-right: 20px;
-  background-color: black;
+  background-color: white;
   width: 100%;
 }
 
@@ -41,20 +63,22 @@
 }
 
 .card_description {
-  color:black;
+  color: black;
   text-align: center;
 }
 
 .card_description_title {
+  font-size: 50px;
   font-style: italic;
 }
 
 .goals_details {
+    font-size: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
-  color: grey;
+  color: black;
   font-style: italic;
 }
 
@@ -72,17 +96,222 @@
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  color: #fff;
-  background-color: black;
+  color: black;
+  background-color: yellow;
   transition: all 0.5s ease-in-out;
 }
 
 .select_btn:hover {
- background-color: lawngreen;
-  color:black ;
-  width: 80%;
+    color: white;
+    background-color: magenta;
+  width:80%;
 }
 
+.player_select_blog {
+    font-size: 40px;
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
 
+/* start : calculation blog */
+.calculation_blog {
+    
+  text-align: center;
+  background-color: black;
+  color: lightgray;
+  padding: 20px;
+}
 
-  
+.calculation_blog_title {
+    font-weight: bold;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.per_player_cost {
+    font-size: 30px;
+    font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.per_player_cost_input {
+  color: black;
+  font-size: 15px;
+  background-color: gainsboro;
+  border: 3px solid white;
+  height: 30px;
+}
+
+.calculate_btn {
+  margin-top: 50px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: fuchsia;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.calculate_btn:hover {
+    background-color:turquoise;
+    color: black;
+  width: 100%;
+}
+
+.player_expenses {
+    font-size: 25px;
+    font-weight: bold;
+  margin-top: 20px;
+}
+
+.manager_article {
+    font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.manager_input {
+  margin-left: 10px;
+  border: 3px solid white;
+  border-radius: 3px;
+  background-color: black;
+}
+
+.coach_article {
+    font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
+.coach_input {
+  color: #fff;
+  width: 170px;
+  margin-left: 28px;
+  border: 3px solid white;
+  border-radius: 3px;
+  background-color: black;
+}
+
+.calculate_total_btn {
+  margin-top: 30px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: lawngreen;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.calculate_total_btn:hover {
+    background-color: red;
+    color: aliceblue;
+  width: 100%;
+}
+
+.total{
+    font-size: 30px;
+}
+/* end : calculation blog */
+
+/* start: footer */
+.footer {
+  max-width: none;
+  width: 100%;
+  min-height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 130px;
+  padding: 130px 20px auto;
+}
+
+.footer_title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer_title:hover{
+   color: tomato;
+background-color: #fff;
+transition: ease-in-out 1s;
+}
+hr {
+  max-width: 1341px;
+  width: 100%;
+  max-width: 1341px;
+  width: 100%;
+  margin: 50px auto;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0;
+}
+
+.footer_list_items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  max-width: 1200px;
+  margin-inline: auto;
+  flex-wrap: wrap;
+}
+
+.footer_list_items li {
+  list-style: none;
+  transition: 0.4s ease-in-out;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'liga' off;
+  color: #b9b9b9;
+}
+.footer_list_items li:hover {
+    font-size: 40px;
+  color: #fff;
+  transition: ease-in-out 1s;
+}
+
+.social_icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+}
+
+.social_icon a {
+  font-size: 33px;
+  transition: 0.5s ease-in-out;
+}
+
+.social_icon a:hover {
+    font-size: 70px;
+  color: #fff;
+  transform: rotate(360deg);
+}
+
+/* end : footer */
